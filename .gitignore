@@ -1,0 +1,4 @@
+node_modules/
+package-lock.json
+tools/screenshot.png
+.DS_Store

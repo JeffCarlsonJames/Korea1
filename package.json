@@ -1,0 +1,15 @@
+{
+  "name": "won-spent",
+  "version": "1.0.0",
+  "description": "iPhone-friendly PWA to track spending in Korean Won, totaled in US Dollars.",
+  "private": true,
+  "scripts": {
+    "icons": "node tools/make-icons.js",
+    "test": "node tools/test-app.js",
+    "serve": "python3 -m http.server 8000"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "playwright": "^1.61.1"
+  }
+}
